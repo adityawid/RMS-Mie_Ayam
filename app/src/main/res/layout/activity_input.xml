@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="com.kurnniawan.pelayanmanajemenlayananrestaurant.InputActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="input pesanan pelanggan"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="pelayan"
+                android:textAllCaps="true"
+                android:textSize="16sp"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textAllCaps="true"
+                android:textSize="16sp"
+                android:textColor="#000" />
+            <Spinner
+                android:id="@+id/spinNamaPelayan"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="kode meja"
+                android:textAllCaps="true"
+                android:textSize="16sp"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textAllCaps="true"
+                android:textSize="16sp"
+                android:textColor="#000" />
+            <Spinner
+                android:id="@+id/spinKodeMeja"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:text="nama pemesan"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:textAllCaps="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textAllCaps="true"
+                android:textSize="16sp"
+                android:textColor="#000"/>
+            <EditText
+                android:id="@+id/etNamaPemesan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="isi nama pemesanan"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="menu list / porsi"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:textColor="#000"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical">
+        </android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="keterangan"
+                android:textAllCaps="true"
+                android:textSize="16sp"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"/>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etKeterangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="isi keterangan menu"/>
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kirim pesanan"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "873343658211",
+    "firebase_url": "https://manajemen-pelayanan-restaurant.firebaseio.com",
+    "project_id": "manajemen-pelayanan-restaurant",
+    "storage_bucket": "manajemen-pelayanan-restaurant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873343658211:android:6fdf3e5e4332f5f9",
+        "android_client_info": {
+          "package_name": "com.kurnniawan.adminmanajemenpemesanan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873343658211-2dh9fekn6b2n7n5kk53uun1281q4s8b1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kurnniawan.adminmanajemenpemesanan",
+            "certificate_hash": "8f698bf8140a709e7eaf397c0fdc7bc6c27adeba"
+          }
+        },
+        {
+          "client_id": "873343658211-5va0n629nmvijcbnio7eihp5g3u8s58d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrptHSbsgoWzHZ3rm983c20PVq6YQ7SXs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873343658211-5va0n629nmvijcbnio7eihp5g3u8s58d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873343658211:android:a9a93a043a6f8fdb",
+        "android_client_info": {
+          "package_name": "com.kurnniawan.pelayanmanajemenlayananrestaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873343658211-jss4s18svthujm71fqv1oaqdui9l5nb6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kurnniawan.pelayanmanajemenlayananrestaurant",
+            "certificate_hash": "d952d51c98732c0f114d7edfc54fce3eda632554"
+          }
+        },
+        {
+          "client_id": "873343658211-gkolamnmlc4jh4g6n6l3cp470em6epuk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kurnniawan.pelayanmanajemenlayananrestaurant",
+            "certificate_hash": "8f698bf8140a709e7eaf397c0fdc7bc6c27adeba"
+          }
+        },
+        {
+          "client_id": "873343658211-5va0n629nmvijcbnio7eihp5g3u8s58d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrptHSbsgoWzHZ3rm983c20PVq6YQ7SXs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873343658211-5va0n629nmvijcbnio7eihp5g3u8s58d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ff8c00">
+            <TextView
+                android:id="@+id/tvRwtkodemeja"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="kode meja"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="wrap_content"
+                android:text=":"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tvRwtnamapelayan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="nama pelayan"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <TextView
+                android:layout_marginTop="2dp"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="nama pemesan"
+                android:textAllCaps="true"
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text=":"/>
+            <TextView
+                android:id="@+id/tvRwtnamapemesan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="isi nama pemesan"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <TextView
+                android:layout_marginTop="2dp"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="pesanan"
+                android:textAllCaps="true"
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text=":"/>
+            <TextView
+                android:id="@+id/tvIsiPesanan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="isi pesanan"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+            <TextView
+                android:layout_marginTop="2dp"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="keterangan"
+                android:textAllCaps="true"
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text=":"/>
+            <TextView
+                android:id="@+id/tvRwtketerangan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="isi nama ket"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvWaktu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="wkt"
+                android:textSize="12sp"
+                android:layout_marginLeft="270dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

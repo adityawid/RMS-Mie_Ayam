@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Pelayan Manajemen Layanan Restaurant</string>
+
+    <string-array name="kode_meja">
+        <item>MA-01</item>
+        <item>MA-02</item>
+        <item>MA-03</item>
+        <item>MA-04</item>
+        <item>MA-05</item>
+        <item>MA-06</item>
+        <item>MA-07</item>
+        <item>MA-08</item>
+    </string-array>
+
+    <string-array name="menu_mie">
+        <item>Mie Ayam</item>
+        <item>Mie Ayam Baso</item>
+        <item>Mie Ayam Pangsit</item>
+        <item>Mie Ayam Jamur</item>
+        <item>Mie Ayam Komplit</item>
+        <item>Teh</item>
+        <item>Es Teh</item>
+        <item>Jeruk Peras</item>
+        <item>Es Jeruk Peras</item>
+        <item>Air Mineral</item>
+    </string-array>
+
+    <string-array name="nama_pelayan">
+        <item>-  ADI   -</item>
+        <item>-  AGUS  -</item>
+        <item>-  BAYU  -</item>
+        <item>-  BAGUS -</item>
+        <item>-  DONI  -</item>
+        <item>-  DENI  -</item>
+        <item>-  TUTIK -</item>
+        <item>-  YENI  -</item>
+    </string-array>
+</resources>

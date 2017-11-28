@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="com.kurnniawan.pelayanmanajemenlayananrestaurant.StokMenuActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stok menu"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/border_stok">
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="1."
+            android:textSize="18sp"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Mie Ayam"
+            android:textSize="18sp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/statusMA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="status"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/border_stok">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="2."
+            android:textColor="#000"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Mie Ayam Baso"
+            android:textSize="18sp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/statusMAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="status"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/border_stok">
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="3."
+            android:textSize="18sp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:text="Mie Ayam Pangsit"
+            android:textColor="#000"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/statusMAP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="status"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/border_stok">
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="4."
+            android:textSize="18sp"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Mie Ayam Jamur"
+            android:textSize="18sp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/statusMAJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="status"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/border_stok">
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="5."
+            android:textSize="18sp"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Mie Ayam Komplit"
+            android:textSize="18sp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/statusMAK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="status"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

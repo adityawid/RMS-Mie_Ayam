@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.kurnniawan.pelayanmanajemenlayananrestaurant.MainActivity">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="180dp"
+        android:src="@drawable/mie1"/>
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="6dp">
+        <ImageView
+            android:onClick="cv1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/icon_mie1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="input pesanan"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="6dp">
+        <ImageView
+            android:onClick="cv2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/icon_mie2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="riwayat pesanan"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="6dp">
+        <ImageView
+            android:onClick="cv3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/icon_mie3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="stok menu"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>
